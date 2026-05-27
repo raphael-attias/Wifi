@@ -32,7 +32,6 @@ Contient:
 ---
 
 ### 2. **02_ANALYSE_PCAP_DETAILLEE.md** - Analyse Fichiers Captures
-**Durée lecture :** ~60 min | **Niveau :** Avancé
 
 Analyse de chaque fichier PCAP avec détails:
 
@@ -62,7 +61,6 @@ Analyse de chaque fichier PCAP avec détails:
 ---
 
 ### 3. **03_GUIDE_PRATIQUE_OUTILS.md** - Hands-On Avec Outils
-**Durée lecture :** ~40 min | **Niveau :** Avancé (Pratique)
 
 Guide commandes étape par étape:
 
@@ -81,37 +79,6 @@ Guide commandes étape par étape:
 - Testez sécurité existant
 - Reproduction labs/CTF
 - Référence commandes rapide
-
----
-
-## 🎯 Feuille de Route Recommandée
-
-### Pour Débutants (0-2 mois)
-```
-Semaine 1 : Lire 01_SYNTHESE_WIFI.md (chapitres 1-4)
-Semaine 2 : Lire 02_ANALYSE_PCAP_DETAILLEE.md (fichiers simples)
-Semaine 3-4 : Lab 03_GUIDE_PRATIQUE - Sections 1-2 (capture)
-Semaine 5-6 : Lab 03_GUIDE_PRATIQUE - Section 3 (analyse)
-Semaine 7-8 : Lab personnel (test propre réseau)
-```
-
-### Pour Intermédiaires (2-6 mois)
-```
-Sprint 1 : Relire 01_SYNTHESE_WIFI complète (sécurité focus)
-Sprint 2 : Analyser 02_ANALYSE_PCAP tous fichiers
-Sprint 3-4 : Lab complet 03_GUIDE_PRATIQUE (tout, sauf exploit)
-Sprint 5 : Projet personnel (pentest lab autorisé)
-Sprint 6 : Cas d'usage réels (forensics, audit)
-```
-
-### Pour Avancés (6+ mois)
-```
-Phase 1 : Maîtriser contenu (tous docs)
-Phase 2 : Personnaliser outils (fork Aircrack, modifier Wireshark)
-Phase 3 : Recherche (nouvelles vulnérabilités, exploits)
-Phase 4 : Enseignement (créer courses, blogs, turorials)
-Phase 5 : Contribution (open-source, CVE disclosure)
-```
 
 ---
 
@@ -264,23 +231,6 @@ tshark -r capture.pcap -Y 'wlan.fc.type == 2' | wc -l
 1. **Court terme (1 mois)** : Maîtriser théorie (synthèse + PCAP)
 2. **Moyen terme (3-6 mois)** : Pratique intensive (labs + projets)
 3. **Long terme (6+ mois)** : Spécialisation (pentest / research / enseignement)
-
----
-
-## 💡 Tips Finaux
-
-- **Lentement mais sûrement** → Comprendre > Mémoriser
-- **Pratiquer beaucoup** → Theory sans labs = Oubli
-- **Documenter progrès** → Notes + Screenshots + Writeups
-- **Partager connaissances** → Blog, Discord, HackTheBox writeups
-- **Rester légal** → Toujours autorisation écrite pentest
-- **Suivre actualités** → CVEs, Wi-Fi Alliance, RFC nouveaux
-
----
-
-**Bon courage et amusez-vous bien ! 🎯📶**
-
-Pour questions/remarques, consultez les documents spécifiques ou posez en commentaires.
 
 ---
 
